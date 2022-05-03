@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      
 jobs:
   info:
     runs-on: ${{ matrix.os }}
